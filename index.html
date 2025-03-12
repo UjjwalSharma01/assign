@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg" alt="Profile Image" class="profile-image">
+            <div class="header-text">
+                <h5>Hello, Welcome 🎉</h5>
+                <h4>John Weak</h4>
+            </div>
+            <i class="fas fa-bell bell-icon"></i>
+        </div>
+        <div class="contact-info">
+            <h3>Contact us</h3>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <p><strong>Email</strong></p>
+                    <p>workforeign@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <p><strong>Phone No.</strong></p>
+                    <p>+44 (0) XXXX XXX XXX</p>
+                </div>
+            </div>
+        </div>    
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="John Weak">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Enter your query..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <div id="formStatus" class="form-status"></div>
+        
+        <!-- Bottom Nav -->
+                <div class="bottom-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Compliance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-hands-helping"></i>
+                        <span>Eligibility</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-th"></i>
+                        <span>Resource</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Reminder</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
